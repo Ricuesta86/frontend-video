@@ -2,8 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* Añade algunos márgenes y padding */
 .container {
   @apply mx-auto p-4;
 }
+
+.header {
+  @apply flex justify-between fixed w-full left-0 p-5 bg-white z-10;
+}
+
+.container-nav {
+  @apply rounded-[50px] w-10 h-10 flex items-center justify-center cursor-pointer;
+}
+
+.center {
+  @apply max-w-[700px] w-full flex items-center justify-between;
+}
+
+.container-search {
+  @apply w-full border border-solid border-[#ccc] relative flex items-stretch rounded-[50px] overflow-hidden cursor-pointer;
+}
+.icono {
+  @apply flex items-center justify-center ml-2.5;
+}
+
+.button-search {
+  @apply w-[70px] bg-[#f8f8f8] flex items-center justify-center border-l border-solid border-[#ccc];
+}
+
+.container-micro {
+  @apply max-w-10 w-full h-10 rounded-[50%] flex items-center justify-center ml-4 cursor-pointer;
+}
+
+.end {
+  @apply flex items-center justify-center;
+}
+
+.item-end{
+  @apply w-10 h-10 rounded-[50%] mx-2.5 flex items-center justify-center p-2.5 cursor-pointer
+}
+
