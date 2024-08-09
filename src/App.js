@@ -1,32 +1,23 @@
-
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./index.css";
 import { Inicio } from "./Inicio";
 import { VideoPlay } from "./VideoPlay";
+import Layout from './Layout';
+
+// src/App.js
+
 
 function App() {
-
-
-  // const handleVideoSelect = (video, index) => {
-  //   setSelectedVideo(video);
-  //   setCurrentVideoIndex(index);
-  // };
-
-  // const handleVideoEnd = () => {
-  //   const nextIndex = (currentVideoIndex + 1) % videos.length;
-  //   setSelectedVideo(videos[nextIndex]);
-  //   setCurrentVideoIndex(nextIndex);
-  // };
-
   return (
-    <div className="app">
+    <Router>
       <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="video-play" element={<VideoPlay />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Inicio />} />
+          <Route path="video-play/:video" element={<VideoPlay />} />
+        </Route>
       </Routes>
-    </div>
+    </Router>
   );
-
 }
 
 export default App;
