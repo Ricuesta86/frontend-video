@@ -22,7 +22,7 @@ function App() {
     <div className="app">
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/video-play/:video" element={<VideoPlay />} />
+        <Route path="video-play" element={<VideoPlay />} />
       </Routes>
     </div>
   );
