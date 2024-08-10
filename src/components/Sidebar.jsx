@@ -4,217 +4,217 @@ import { Link } from "react-router-dom";
 export const Sidebar = () => {
   return (
     // <!-- barras laterales -->
-    <section class="bar-lateral" id="bar-lateral">
+    <section className="bar-lateral" id="bar-lateral">
       {/* <!-- barra grande --> */}
-      <div id="big-menu" class="">
-        <ul class="options">
+      <div id="big-menu" className="">
+        <ul className="options">
           <li>
             <Link to={'#'}>
               <img src="/img/icono-home.png" alt="alt" />
-              <span class="text">Inicio</span>
+              <span className="text">Inicio</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-shorts.png" alt="alt" />
-              <span class="text">Shorts</span>
+              <span className="text">Shorts</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-subscriptions.png" alt="alt" />
-              <span class="text">Subscripciones</span>
+              <span className="text">Subscripciones</span>
             </Link>
           </li>
           <hr />
         </ul>
 
-        <ul class="options" id="library">
+        <ul className="options" id="library">
           <li>
             <Link to={'#'}>
               <img src="/img/icono-library.png" alt="alt" />
-              <span class="text">Mi Biblioteca</span>
+              <span className="text">Mi Biblioteca</span>
             </Link>
           </li>
           <li>
             <Link to={"#"}>
               <img src="/img/icono-historial.png" alt="alt" />
-              <span class="text">Historial</span>
+              <span className="text">Historial</span>
             </Link>
           </li>
           <li>
             <Link to={"#"}>
               <img src="/img/icono-videos.png" alt="alt" />
-              <span class="text">Mis Videos</span>
+              <span className="text">Mis Videos</span>
             </Link>
           </li>
           <li>
             <Link to={"#"}>
               <img src="/img/icono-later.png" alt="alt" />
-              <span class="text">Ver más tarde</span>
+              <span className="text">Ver más tarde</span>
             </Link>
           </li>
           <li>
             <Link to={"#"}>
               <img src="/img/icono-likes.png" alt="alt" />
-              <span class="text">Videos que me gustan</span>
+              <span className="text">Videos que me gustan</span>
             </Link>
           </li>
           <hr />
         </ul>
 
-        <ul class="options" id="subscriptions">
+        <ul className="options" id="subscriptions">
           <h3>Subscripciones</h3>
           <li>
             <Link to={"#"}>
               <img src="/img/canal1.jpeg" alt="alt" />
-              <span class="text">Coderhouse</span>
+              <span className="text">Coderhouse</span>
             </Link>
           </li>
           <li>
             <Link to={"#"}>
               <img src="/img/canal2.jpeg" alt="alt" />
-              <span class="text">Plazti</span>
+              <span className="text">Plazti</span>
             </Link>
           </li>
           <li>
             <Link to={"#"}>
               <img src="/img/canal3.jpeg" alt="alt" />
-              <span class="text">Chess24 en Español</span>
+              <span className="text">Chess24 en Español</span>
             </Link>
           </li>
           <li>
           <Link to={'#'}>
               <img src="/img/canal4.jpeg" alt="alt" />
-              <span class="text">CNN</span>
+              <span className="text">CNN</span>
             </Link>
           </li>
           <li>
           <Link to={'#'}>
               <img src="/img/canal5.jpeg" alt="alt" />
-              <span class="text">National Geographic</span>
+              <span className="text">National Geographic</span>
             </Link>
           </li>
           <li>
           <Link to={'#'}>
               <img src="/img/canal6.jpeg" alt="alt" />
-              <span class="text">FreeCodeCamp.org</span>
+              <span className="text">FreeCodeCamp.org</span>
             </Link>
           </li>
           <hr />
         </ul>
 
-        <ul class="options" id="explorer">
+        <ul className="options" id="explorer">
           <h3>Explorar</h3>
           <li>
           <Link to={'#'}>
               <img src="/img/icono-explorer.png" alt="alt" />
-              <span class="text">Explorar</span>
+              <span className="text">Explorar</span>
             </Link>
           </li>
           <li>
           <Link to={'#'}>
               <img src="/img/icono-music.png" alt="alt" />
-              <span class="text">Música</span>
+              <span className="text">Música</span>
             </Link>
           </li>
           <li>
           <Link to={'#'}>
               <img src="/img/icono-movies.png" alt="alt" />
-              <span class="text">Películas</span>
+              <span className="text">Películas</span>
             </Link>
           </li>
           <li>
           <Link to={'#'}>
               <img src="/img/icono-live.png" alt="alt" />
-              <span class="text">En directo</span>
+              <span className="text">En directo</span>
             </Link>
           </li>
           <li>
           <Link to={'#'}>
               <img src="/img/icono-games.png" alt="alt" />
-              <span class="text">Video Juegos</span>
+              <span className="text">Video Juegos</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-news.png" alt="alt" />
-              <span class="text">Noticias</span>
+              <span className="text">Noticias</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-sports.png" alt="alt" />
-              <span class="text">Deportes</span>
+              <span className="text">Deportes</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-learn.png" alt="alt" />
-              <span class="text">Aprendizaje</span>
+              <span className="text">Aprendizaje</span>
             </Link>
           </li>
           <hr />
         </ul>
 
-        <ul class="options" id="moreyoutube">
+        <ul className="options" id="moreyoutube">
           <h3>Mas de YouTube</h3>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-premium.png" alt="alt" />
-              <span class="text">YouTube Premium</span>
+              <span className="text">YouTube Premium</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-creator.png" alt="alt" />
-              <span class="text">Creator Studio</span>
+              <span className="text">Creator Studio</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-youtube-music.png" alt="alt" />
-              <span class="text">YouTube Music</span>
+              <span className="text">YouTube Music</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-kids.png" alt="alt" />
-              <span class="text">YouTube Kids</span>
+              <span className="text">YouTube Kids</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-tv.png" alt="alt" />
-              <span class="text">YouTube TV</span>
+              <span className="text">YouTube TV</span>
             </Link>
           </li>
           <hr />
         </ul>
 
-        <ul class="options" id="config">
+        <ul className="options" id="config">
           <li>
             <Link to={'#'}>
               <img src="/img/icono-settings.png" alt="alt" />
-              <span class="text">Configuración</span>
+              <span className="text">Configuración</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-complaints.png" alt="alt" />
-              <span class="text">Historial de denuncias</span>
+              <span className="text">Historial de denuncias</span>
             </Link>
           </li>
           <li>
             <Link to={'#'}>
               <img src="/img/icono-help.png" alt="alt" />
-              <span class="text">Ayuda</span>
+              <span className="text">Ayuda</span>
             </Link>
           </li>
           <hr />
         </ul>
 
-        <div class="links">
+        <div className="links">
           <Link to={'#'}>Información</Link>
           <Link to={'#'}>Prensa</Link>
           <Link to={'#'}>Derechos de autor</Link>
@@ -223,26 +223,26 @@ export const Sidebar = () => {
           <Link to={'#'}>Publicidad</Link>
           <Link to={'#'}>Desarrolladores</Link>
         </div>
-        <div class="links">
+        <div className="links">
           <Link to={'#'}>Términos</Link>
           <Link to={'#'}>Privacidad</Link>
           <Link to={'#'}>Pólitica y seguridad</Link>
           <Link to={'#'}>Cómo funciona YouTube</Link>
           <Link to={'#'}>Probar funciones nuevas</Link>
         </div>
-        <span class="google">© 2023 Google LLC</span>
+        <span className="google">© 2023 Google LLC</span>
       </div>
 
       {/* <!-- barra pequeña --> */}
-      <div id="little-menu" class="little-menu ocultar">
-        <ul class="options">
+      <div id="little-menu" className="little-menu ocultar">
+        <ul className="options">
           <li>
             <Link to={'#'}>
               <img
                 src="/img/home-page--v1.png"
                 alt="alt"
               />
-              <span class="text">Inicio</span>
+              <span className="text">Inicio</span>
             </Link>
           </li>
           <li>
@@ -251,7 +251,7 @@ export const Sidebar = () => {
                 src="/img/attach.png"
                 alt="alt"
               />
-              <span class="text">Shorts</span>
+              <span className="text">Shorts</span>
             </Link>
           </li>
           <li>
@@ -260,7 +260,7 @@ export const Sidebar = () => {
                 src="/img/video-playlist.png"
                 alt="alt"
               />
-              <span class="text">Subscripciones</span>
+              <span className="text">Subscripciones</span>
             </Link>
           </li>
           <li>
@@ -269,7 +269,7 @@ export const Sidebar = () => {
                 src="/img/personal-video-recorder-menu.png"
                 alt="alt"
               />
-              <span class="text">Mi Biblioteca</span>
+              <span className="text">Mi Biblioteca</span>
             </Link>
           </li>
           <hr />

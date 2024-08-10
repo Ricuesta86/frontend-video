@@ -16,30 +16,30 @@ export const VideoCard = (props) => {
   return (
     <div>
       {" "}
-      <div class="container-item">
-        <div class="item">
-          <div class="img-container">
+      <div classname="container-item">
+        <div classname="item">
+          <div classname="img-container">
             <img src="img/image-fill1.webp" alt="" />
-            <span class="time">15:00</span>
+            <span classname="time">15:00</span>
           </div>
-          <div class="row">
-            <div class="col">
-              <div class="img-channel">
+          <div classname="row">
+            <div classname="col">
+              <div classname="img-channel">
                 <img src="img/canal1.jpeg" alt="" />
               </div>
             </div>
-            <div class="col">
-              <div class="info">
+            <div classname="col">
+              <div classname="info">
                 <h3>
                   <Link to="#">
                     Chat GPT vs Google Bard, La Guerra de las IA (Google vs
                     Microsoft)
                   </Link>
                 </h3>
-                <Link to="#" class="name-channel">
+                <Link to="#" classname="name-channel">
                   Coder
                 </Link>
-                <div class="metadata">
+                <div classname="metadata">
                   <span>122.000 visualizaciones</span>
                   &#9679;
                   <span>Emitido hace 3 días</span>
@@ -47,7 +47,7 @@ export const VideoCard = (props) => {
               </div>
             </div>
           </div>
-          <div class="buttons-video" id="buttons-video">
+          <div classname="buttons-video" id="buttons-video">
             <button>
               <img src="img/icono-historial.png" alt="" />
               Ver mas tarde

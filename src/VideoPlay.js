@@ -18,7 +18,7 @@ export const VideoPlay = () => {
     console.log("Hola mundo");
   };
   return (
-    <section class="videos" id="videos">
+    <section className="videos" id="videos">
       <div className="flex h-screen p-4">
         <div className="p-4">
           <VideoPlayer video={currentVideo} onEnded={() => HandleOnEnded} />

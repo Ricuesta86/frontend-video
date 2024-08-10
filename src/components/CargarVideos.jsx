@@ -15,7 +15,7 @@ export const CargarVideos = () => {
 
   return (
     <>
-      <section class="videos" id="videos">
+      <section className="videos" id="videos">
         {videos.map((video) => (
           <div key={video} className="bg-white p-4 rounded shadow">
             {/* <video controls className="w-full">
