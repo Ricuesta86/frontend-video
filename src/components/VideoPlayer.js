@@ -4,7 +4,6 @@ import ReactPlayer from "react-player";
 const VideoPlayer = ({ video, onEnded }) => {
   return (
     <div className="w-full h-full">
-      <h2 className="text-xl font-semibold mb-4">{video}</h2>
       <ReactPlayer
         controls
         playing
@@ -13,6 +12,7 @@ const VideoPlayer = ({ video, onEnded }) => {
         url={`http://localhost:5000/videos/${video}`}
         onEnded={onEnded}
       />
+      <h2 className="text-xl font-semibold mb-4">{video}</h2>
     </div>
   );
 };
