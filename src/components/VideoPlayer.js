@@ -2,6 +2,9 @@ import ReactPlayer from "react-player";
 
 // src/components/VideoPlayer.js
 const VideoPlayer = ({ video, onEnded }) => {
+  // const handleOnEnded =()=>{
+  //   console.log('first')
+  // }
   return (
     <div className="w-full h-full">
       <ReactPlayer
