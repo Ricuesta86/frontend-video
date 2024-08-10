@@ -14,10 +14,15 @@ export const VideoPlay = () => {
       .then((response) => response.json())
       .then((data) => setVideos(data));
   }, []);
+
+
+  const HandleOnEnded=()=>{
+    console.log('Hola mundo')
+  }
   return (
     <div className="flex h-screen p-4">
       <div className="w-2/3 p-4">
-        <VideoPlayer video={currentVideo} />
+        <VideoPlayer video={currentVideo} onEnded={()=>HandleOnEnded}/>
       </div>
       <div className="w-1/3 p-4 border-l">
         <VideoList videos={videos} onSelect={setCurrentVideo} />
