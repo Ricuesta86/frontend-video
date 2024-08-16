@@ -136,15 +136,7 @@
 /* SECCION VIDEOS */
 /* ********************** */
 .videos {
-  position: relative;
-  top: 100px;
-  margin-left: 300px;
-  padding-right: 20px;
-  /* seccion grid */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 30px;
-  grid-row-gap: 50px;
+  @apply relative top-[100px] ml-[300px] pr-5 grid grid-cols-3 gap-[30px] gap-y-[50px]
 }
 .videos .container-item {
   position: relative;
