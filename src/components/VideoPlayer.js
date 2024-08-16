@@ -12,7 +12,6 @@ const VideoPlayer = ({ video, onEnded }) => {
           controls
           playing
           width={"100%"}
-          pip={`http://localhost:5000/videos/${video}`}
           url={`http://localhost:5000/videos/${video}`}
           onEnded={onEnded}
         />
