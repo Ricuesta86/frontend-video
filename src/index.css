@@ -136,23 +136,34 @@
 /* SECCION VIDEOS */
 /* ********************** */
 .videos {
-  @apply relative top-[100px] ml-[300px] pr-5 grid grid-cols-3 gap-[30px] gap-y-[50px]
+  position: relative;
+  top: 100px;
+  margin-left: 300px;
+  padding-right: 20px;
+  /* seccion grid */
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  grid-row-gap: 50px; */
 }
 .videos .container-item {
-  position: relative;
+  /* position: relative; */
   background-color: #fff !important;
   height: 300px;
   border-radius: 20px;
 }
+ 
 .videos .container-item .item {
-  position: absolute;
+  /* position: absolute; */
   max-width: 360px;
+  height: 250px;
   background-color: #fff;
   transition: 0.3s;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   overflow: hidden;
   transition: 0.5s;
 }
+
 .videos .item .img-container {
   position: relative;
 }
@@ -200,19 +211,19 @@
 .videos .item .row .col .info .metadata {
   font-size: 14px;
   color: #606060;
-}
-.videos .item .buttons-video {
+} 
+/* .videos .item .buttons-video {
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; */
   /* margin: 10px 0; */
-  display: none;
+  /* display: none;
   top: 10px;
   background-color: #fff;
   padding: 0;
   z-index: 10;
-}
-.videos .item .buttons-video img {
+} */
+/* .videos .item .buttons-video img {
   width: 24px;
   margin-right: 10px;
 }
@@ -224,7 +235,7 @@
   border-radius: 20px;
   font-weight: bold;
   cursor: pointer;
-}
+} */
 
 /* clases que se agregan dinámicamente mediante Javascript */
 .on-hover {
