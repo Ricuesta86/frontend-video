@@ -15,7 +15,7 @@ export const VideoPlay = () => {
   }, []);
 
   const HandleOnEnded = async () => {
-    const position = await videos.indexOf(currentVideo);
+    const position = videos.indexOf(currentVideo);
 
     if (position === videos.length - 1) setCurrentVideo(videos[0]);
     else setCurrentVideo(videos[position + 1]);

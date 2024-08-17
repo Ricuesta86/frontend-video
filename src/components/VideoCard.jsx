@@ -38,14 +38,6 @@ export const VideoCard = ({video}) => {
                         {handleSplit(video)}
                       </Link>
                     </h3>
-                    {/* <Link to={`/video-play/${video}`} className="name-channel">
-                      Coder
-                    </Link>
-                    <div className="metadata">
-                      <span>122.000 visualizaciones</span>
-                      &#9679;
-                      <span>Emitido hace 3 días</span>
-                    </div> */}
                   </div>
                 </div>
               </div>
